@@ -17,10 +17,13 @@ co1,co2,co3=st.columns(3)
 with co1:
   st.subheader("Vijayawada")  
   st.image(image="https://i.ytimg.com/vi/mzLOJf2RdyA/sddefault.jpg", caption="Vijayawada", width=300, use_column_width=True, )
+  st.write("place of victory")
 with co2:
   st.subheader("Vizag")
   st.image(image="https://i.ytimg.com/vi/eb37MOTOtuY/hqdefault.jpg", caption="vizag", width=300, use_column_width=True, )
+  st.write("City of Destiny")
 with co3:
   st.subheader("Araku")
   st.image(image="https://www.inditales.com/wp-content/uploads/2023/09/araku-view-point-clouds-passing.jpg", caption="araku", width=300, use_column_width=True, )
+  st.wtite("Ooty of Andhra")
 
