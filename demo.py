@@ -20,10 +20,7 @@ with co1:
 with co2:
   st.subheader("Vizag")
   st.image(image="https://i.ytimg.com/vi/eb37MOTOtuY/hqdefault.jpg", caption="vizag", width=300, use_column_width=True, )
-with co3:
+with co2:
   st.subheader("Araku")
-  st.image(image="with co2:
-  st.subheader("Vizag")
-  st.image(image="https://i.ytimg.com/vi/eb37MOTOtuY/hqdefault.jpg", caption="vizag", width=300, use_column_width=True, )
-", caption="araku", width=300, use_column_width=True, )
+  st.image(image="https://www.inditales.com/wp-content/uploads/2023/09/araku-view-point-clouds-passing.jpg", caption="araku", width=300, use_column_width=True, )
 
