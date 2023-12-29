@@ -3,4 +3,4 @@ st.set_page_config(page_title='cats')
 st.markdown("## Types of cats")                   
 st.write("Persian Cat")                        
 st.write("White Cat")
-st.iamge("./AI_part_1.jpg")
+
