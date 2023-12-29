@@ -13,11 +13,17 @@ with col3:
   st.image(image="https://imgmedia.lbb.in/media/2018/07/5b4db705f7dd8e7a514d1b87_1531819781327.jpg", caption="Chicken", width=300, use_column_width=True, )
 
 st.header("My Favourite Places") 
-co1,co2=st.columns(2)
+co1,co2,co3=st.columns(3)
 with co1:
   st.subheader("Vijayawada")  
   st.image(image="https://i.ytimg.com/vi/mzLOJf2RdyA/sddefault.jpg", caption="Vijayawada", width=300, use_column_width=True, )
 with co2:
   st.subheader("Vizag")
   st.image(image="https://i.ytimg.com/vi/eb37MOTOtuY/hqdefault.jpg", caption="vizag", width=300, use_column_width=True, )
+with co3:
+  st.subheader("Araku")
+  st.image(image="with co2:
+  st.subheader("Vizag")
+  st.image(image="https://i.ytimg.com/vi/eb37MOTOtuY/hqdefault.jpg", caption="vizag", width=300, use_column_width=True, )
+", caption="araku", width=300, use_column_width=True, )
 
