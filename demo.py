@@ -25,5 +25,5 @@ with co2:
 with co3:
   st.subheader("Araku")
   st.image(image="https://www.inditales.com/wp-content/uploads/2023/09/araku-view-point-clouds-passing.jpg", caption="araku", width=300, use_column_width=True, )
-  st.wtite("Ooty of Andhra")
+  st.write("Ooty of Andhra")
 
