@@ -17,7 +17,7 @@ co1,co2=st.columns(2)
 with co1:
   st.subheader("Vijayawada")  
   st.image(image="https://i.ytimg.com/vi/mzLOJf2RdyA/sddefault.jpg", caption="Fried Rice", width=300, use_column_width=True, )
-with col2:
+with co2:
   st.subheader("Vizag")
   st.image(image="https://i.ytimg.com/vi/eb37MOTOtuY/hqdefault.jpg", caption="Chicken", width=300, use_column_width=True, )
 
