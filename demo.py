@@ -24,6 +24,6 @@ with co2:
   st.write("City of Destiny")
 with co3:
   st.subheader("Araku")
-  st.image(image="https://www.inditales.com/wp-content/uploads/2023/09/araku-view-point-clouds-passing.jpg", caption="araku", width=300, use_column_width=True, )
+  st.image(image="https://www.inditales.com/wp-content/uploads/2023/09/araku-view-point-clouds-passing.jpg", caption="araku", width=400, use_column_width=True, )
   st.write("Ooty of Andhra")
 
