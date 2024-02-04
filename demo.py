@@ -4,10 +4,22 @@ st.title("Welcome to BMI Calculator")
 
 weight=st.number_input("Enter your weight(in kgs):")
 
-x=st.radio("Select your height format:",('Cms','meters','feet'))
+x=st.radio("Select your height format:",('Cms','Meters','Feet'))
 if(x=='Cms'):
   height=st.number_input("Centimeters:")
+  try:
+    bmi = weight / ((height/100)**2)
+  except:
+    st.text("Enter some value of height")
 elif(x=='meters'):
   height=st.number_input("Meters:")
+  try:
+    bmi = weight / (height ** 2)
+  except:
+    st.text("Enter some value of height")
 else:
   height=st.number_input("Feet:")
+  try:
+    bmi = weight / (((height/3.28))**2)
+  except:
+    st.text("Enter some value of height")
