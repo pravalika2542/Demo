@@ -1,6 +1,6 @@
 import streamlit as st
 st.set_page_config(page_title='bmi')        
-st.title("Welcome to BMI Calculator", text_align="center")     
+st.title("Welcome to BMI Calculator",text_align="center")     
 
 weight=st.number_input("Enter your weight(in kgs):")
 
